@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(233, 182, 89);
+}
+
+blockquote {
+  background-color: #e70c0c;
+  padding: 10px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}

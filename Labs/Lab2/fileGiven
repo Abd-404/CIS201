@@ -1,0 +1,31 @@
+<!-- Add missing elements to have a proper html page -->
+<html>
+<head>
+</head>
+<body>
+
+<!-- Add the names of 3 one peice characters (Monkey D. Luffy, Roronoa Zoro and Nami as ordered list -->
+<!-- Add links to each characters names, the link takes us to the part about the character -->
+
+<!-- Add the 3 images which can be located in /src/imgs -->
+<!-- Luffy, Zoro and Nami -->
+
+<!-- add the following description as a quote about the characters -->
+<img src="/Images/Luffy.png" alt="Luffy">
+
+
+Monkey D. Luffy, also known as "Straw Hat" Luffy, is a fictional character and the main protagonist of the One Piece manga series, created by Eiichiro Oda. Luffy made his debut in One Piece Chapter #1 as a young boy who acquires the properties of rubber after accidentally eating the supernatural Gum-Gum Fruit.
+
+<!-- Zoro image -->
+
+Roronoa Zoro, nicknamed "Pirate Hunter" Zoro, is a fictional character in the One Piece franchise created by Eiichiro Oda. In the story, Pirate Hunter Zoro is the first to join Monkey D. Luffy after he is saved from being executed at the Marine Base
+
+
+<!-- Nami image -->
+
+Nami is a fictional character in the One Piece franchise created by Eiichiro Oda. She is based on Ann and Silk, two characters from Oda's previous manga Romance Dawn. She is introduced as a thief and pickpocket who possesses cartographical, meteorological and navigational skills.
+
+<!-- in the text above, make the names of characters in bold -->
+
+</body>
+</html>

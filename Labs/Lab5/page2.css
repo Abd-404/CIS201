@@ -1,0 +1,23 @@
+body {
+  background-image: url("images/bg-img-2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial;
+  color: rgb(255, 247, 247);
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(255, 247, 247);
+  border-collapse: collapse;
+}
+table {
+  margin: auto;
+}

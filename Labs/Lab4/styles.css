@@ -1,0 +1,30 @@
+* {
+  background-color: #eee2dc;
+}
+
+h1 {
+  text-align: center;
+  color: #ac3b61;
+}
+
+h2,
+h3 {
+  color: #123c69;
+}
+
+p {
+  color: #693c29;
+}
+a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 10px;
+}
+a:hover {
+  background-color: #f592b3;
+}
+
+.description {
+  font-size: 18px;
+}
