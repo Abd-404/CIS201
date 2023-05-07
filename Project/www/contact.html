@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/shared.css" />
+    <link rel="stylesheet" href="/src/styles/contact.css" />
+    <script src="/src/js/template.js" defer></script>
+  </head>
+  <body>
+    <header id="navbar"></header>
+    <aside id="side-drawer"></aside>
+    <main>
+      <h1>Contact Us</h1>
+      <form action="/" method="GET">
+        <h2>Your Perosnal Details</h2>
+        <ul>
+          <li>
+            <label for="username">Your Name</label>
+            <input type="text" name="user-name" id="username" required />
+          </li>
+          <li>
+            <label for="useremail">Your email address</label>
+            <input type="email" name="user-email" id="useremail" />
+          </li>
+        </ul>
+        <h2>Your Message</h2>
+        <label for="usermsg">Your message</label>
+        <textarea id="usermsg" name="user-msg" rows="10"></textarea>
+        <h2>How would you rate us?</h2>
+        <ul>
+          <li class="form-control-inline">
+            <input
+              type="radio"
+              name="rating"
+              value="1-star"
+              id="1-star"
+              required
+            />
+            <label for="1-star">1 star 😔</label>
+          </li>
+          <li class="form-control-inline">
+            <input
+              type="radio"
+              name="rating"
+              value="2-stars"
+              id="2-stars"
+              required
+            />
+            <label for="2-stars">2 Stars 🙁</label>
+          </li>
+          <li class="form-control-inline">
+            <input
+              type="radio"
+              name="rating"
+              value="3-stars"
+              id="3-stars"
+              required
+            />
+            <label for="3-stars">3 Stars 😐</label>
+          </li>
+          <li class="form-control-inline">
+            <input
+              type="radio"
+              name="rating"
+              value="4-stars"
+              id="4-stars"
+              required
+            />
+            <label for="4-stars">4 Stars 🤗</label>
+          </li>
+          <li class="form-control-inline">
+            <input
+              type="radio"
+              name="rating"
+              value="5-stars"
+              id="5-stars"
+              required
+            />
+            <label for="5-stars">5 Stars 😁</label>
+          </li>
+        </ul>
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+</html>

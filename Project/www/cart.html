@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/shared.css" />
+    <link rel="stylesheet" href="/src/styles/cart.css" />
+    <script src="/src/js/template.js" defer></script>
+    <script src="/src/js/data.js" defer></script>
+    <script src="/src/js/cart.js" defer></script>
+  </head>
+  <body>
+    <header id="navbar"></header>
+    <aside id="side-drawer"></aside>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="products"></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total:</td>
+            <td><span id="total-price">0</span> SAR</td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+</html>

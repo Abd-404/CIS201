@@ -1,0 +1,66 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: rgb(212, 212, 212);
+  color: #060606;
+  padding: 10px;
+  text-align: left;
+  font-weight: normal;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+tbody td img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+tbody td p {
+  margin: 0;
+}
+
+tfoot td {
+  padding: 10px;
+  font-weight: bold;
+}
+
+tfoot td:first-child {
+  text-align: right;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+button {
+  margin: 0;
+}
+
+button:hover {
+  background-color: initial;
+  color: initial;
+}
+
+button svg {
+  scale: 1.2;
+}
+
+.product-item {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 34.625rem) {
+  .product-item {
+    flex-direction: column;
+  }
+}

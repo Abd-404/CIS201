@@ -1,0 +1,192 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  background-color: rgb(36, 28, 28);
+  color: rgb(226, 229, 250);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.25rem;
+  border-radius: 6px;
+}
+
+header a:hover {
+  background-color: rgb(226, 229, 250);
+  color: rgb(36, 28, 28);
+}
+
+.menu-btn:hover span {
+  background-color: rgb(226, 229, 250);
+}
+
+.menu-btn:hover {
+  background-color: unset;
+}
+
+#logo h2 {
+  font-family: "Oleo Script", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+nav li {
+  padding: 0 0.25rem;
+  margin-left: 1.25rem;
+}
+
+#cart-container {
+  display: flex;
+  align-items: center;
+}
+
+#cart-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+}
+
+#badge {
+  position: relative;
+  font-size: 0.75rem;
+  top: -10px;
+}
+
+.menu-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(226, 229, 250);
+}
+
+.mobile-only {
+  display: none;
+}
+
+#side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(29, 26, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: none;
+}
+
+#side-drawer:target {
+  display: block;
+}
+
+#side-drawer header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#side-drawer ul {
+  list-style: none;
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#side-drawer li {
+  margin: 1rem 0;
+}
+
+#side-drawer a {
+  text-decoration: none;
+  color: rgb(226, 229, 250);
+  font-size: 2rem;
+}
+
+footer {
+  background-color: rgb(36, 28, 28);
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+footer svg {
+  fill: rgb(226, 229, 250);
+  height: 3rem;
+  width: 3rem;
+}
+
+.button {
+  background-color: rgb(242, 80, 80);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 0.65rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(235, 235, 235);
+  color: rgb(242, 80, 80);
+  cursor: pointer;
+}
+
+.button:hover a {
+  color: rgb(242, 80, 80);
+}
+
+@media (max-width: 49.25rem) {
+  #logo h2 {
+    font-size: 2rem;
+  }
+  .hide-mobile {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+  .menu-btn {
+    display: flex;
+  }
+}
