@@ -1,5 +1,3 @@
-console.log(cartElementIds);
-console.log(nbCartItems);
 const productsCart = document.getElementById("products");
 const totalPriceElement = document.getElementById("total-price");
 
